@@ -1,0 +1,340 @@
+[
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "fr.unice.polytech.startingpoint.MyBenchmark.Entree",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-12.0.2\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.2.1\\lib\\idea_rt.jar=52682:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.2.1\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dmjh.stack.period=1"
+        ],
+        "jdkVersion" : "12.0.2",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "12.0.2+10",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 21.237778783023806,
+            "scoreError" : 7.929647501671112,
+            "scoreConfidence" : [
+                13.308131281352694,
+                29.16742628469492
+            ],
+            "scorePercentiles" : {
+                "0.0" : 18.520539003696857,
+                "50.0" : 21.352699573560766,
+                "90.0" : 23.416015887850467,
+                "95.0" : 23.416015887850467,
+                "99.0" : 23.416015887850467,
+                "99.9" : 23.416015887850467,
+                "99.99" : 23.416015887850467,
+                "99.999" : 23.416015887850467,
+                "99.9999" : 23.416015887850467,
+                "100.0" : 23.416015887850467
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    23.416015887850467,
+                    18.520539003696857,
+                    19.911688071570577,
+                    21.352699573560766,
+                    22.987951378440368
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+            "·stack" : {
+                "score" : "NaN",
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : "NaN",
+                    "50.0" : "NaN",
+                    "90.0" : "NaN",
+                    "95.0" : "NaN",
+                    "99.0" : "NaN",
+                    "99.9" : "NaN",
+                    "99.99" : "NaN",
+                    "99.999" : "NaN",
+                    "99.9999" : "NaN",
+                    "100.0" : "NaN"
+                },
+                "scoreUnit" : "---",
+                "rawData" : [
+                    [
+                        "NaN",
+                        "NaN",
+                        "NaN",
+                        "NaN",
+                        "NaN"
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "fr.unice.polytech.startingpoint.MyBenchmark.Main",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-12.0.2\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.2.1\\lib\\idea_rt.jar=52682:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.2.1\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dmjh.stack.period=1"
+        ],
+        "jdkVersion" : "12.0.2",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "12.0.2+10",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 983.8313739169696,
+            "scoreError" : 280.96785448445286,
+            "scoreConfidence" : [
+                702.8635194325168,
+                1264.7992284014224
+            ],
+            "scorePercentiles" : {
+                "0.0" : 891.5203666666666,
+                "50.0" : 1007.51303,
+                "90.0" : 1076.3908301,
+                "95.0" : 1076.3908301,
+                "99.0" : 1076.3908301,
+                "99.9" : 1076.3908301,
+                "99.99" : 1076.3908301,
+                "99.999" : 1076.3908301,
+                "99.9999" : 1076.3908301,
+                "100.0" : 1076.3908301
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1012.85837,
+                    891.5203666666666,
+                    1076.3908301,
+                    930.8742728181818,
+                    1007.51303
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+            "·stack" : {
+                "score" : "NaN",
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : "NaN",
+                    "50.0" : "NaN",
+                    "90.0" : "NaN",
+                    "95.0" : "NaN",
+                    "99.0" : "NaN",
+                    "99.9" : "NaN",
+                    "99.99" : "NaN",
+                    "99.999" : "NaN",
+                    "99.9999" : "NaN",
+                    "100.0" : "NaN"
+                },
+                "scoreUnit" : "---",
+                "rawData" : [
+                    [
+                        "NaN",
+                        "NaN",
+                        "NaN",
+                        "NaN",
+                        "NaN"
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "fr.unice.polytech.startingpoint.MyBenchmark.processing",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-12.0.2\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.2.1\\lib\\idea_rt.jar=52682:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.2.1\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dmjh.stack.period=1"
+        ],
+        "jdkVersion" : "12.0.2",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "12.0.2+10",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 0.8017049685069478,
+            "scoreError" : 0.1051640625727844,
+            "scoreConfidence" : [
+                0.6965409059341634,
+                0.9068690310797323
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.758783611153205,
+                "50.0" : 0.8139710372297188,
+                "90.0" : 0.8282280209246548,
+                "95.0" : 0.8282280209246548,
+                "99.0" : 0.8282280209246548,
+                "99.9" : 0.8282280209246548,
+                "99.99" : 0.8282280209246548,
+                "99.999" : 0.8282280209246548,
+                "99.9999" : 0.8282280209246548,
+                "100.0" : 0.8282280209246548
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.7919642252629914,
+                    0.8139710372297188,
+                    0.758783611153205,
+                    0.8155779479641694,
+                    0.8282280209246548
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+            "·stack" : {
+                "score" : "NaN",
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : "NaN",
+                    "50.0" : "NaN",
+                    "90.0" : "NaN",
+                    "95.0" : "NaN",
+                    "99.0" : "NaN",
+                    "99.9" : "NaN",
+                    "99.99" : "NaN",
+                    "99.999" : "NaN",
+                    "99.9999" : "NaN",
+                    "100.0" : "NaN"
+                },
+                "scoreUnit" : "---",
+                "rawData" : [
+                    [
+                        "NaN",
+                        "NaN",
+                        "NaN",
+                        "NaN",
+                        "NaN"
+                    ]
+                ]
+            }
+        }
+    },
+    {
+        "jmhVersion" : "1.22",
+        "benchmark" : "fr.unice.polytech.startingpoint.MyBenchmark.sortie",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-12.0.2\\bin\\java.exe",
+        "jvmArgs" : [
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.2.1\\lib\\idea_rt.jar=52682:C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.2.1\\bin",
+            "-Dfile.encoding=UTF-8",
+            "-Dmjh.stack.period=1"
+        ],
+        "jdkVersion" : "12.0.2",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "12.0.2+10",
+        "warmupIterations" : 2,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.353167891464624,
+            "scoreError" : 2.2329576687715025,
+            "scoreConfidence" : [
+                7.120210222693121,
+                11.586125560236127
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8.560320958939265,
+                "50.0" : 9.277405931417979,
+                "90.0" : 10.173161421319797,
+                "95.0" : 10.173161421319797,
+                "99.0" : 10.173161421319797,
+                "99.9" : 10.173161421319797,
+                "99.99" : 10.173161421319797,
+                "99.999" : 10.173161421319797,
+                "99.9999" : 10.173161421319797,
+                "100.0" : 10.173161421319797
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    9.513823931623932,
+                    9.277405931417979,
+                    9.241127214022141,
+                    8.560320958939265,
+                    10.173161421319797
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+            "·stack" : {
+                "score" : "NaN",
+                "scoreError" : "NaN",
+                "scoreConfidence" : [
+                    "NaN",
+                    "NaN"
+                ],
+                "scorePercentiles" : {
+                    "0.0" : "NaN",
+                    "50.0" : "NaN",
+                    "90.0" : "NaN",
+                    "95.0" : "NaN",
+                    "99.0" : "NaN",
+                    "99.9" : "NaN",
+                    "99.99" : "NaN",
+                    "99.999" : "NaN",
+                    "99.9999" : "NaN",
+                    "100.0" : "NaN"
+                },
+                "scoreUnit" : "---",
+                "rawData" : [
+                    [
+                        "NaN",
+                        "NaN",
+                        "NaN",
+                        "NaN",
+                        "NaN"
+                    ]
+                ]
+            }
+        }
+    }
+]
+
+
