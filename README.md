@@ -11,7 +11,7 @@ Pour lancer la simulation, compilez et executez le code avec Maven
 
 ## Rapport Du Projet Taxi
 
-![taxi](taxi.png)
+![taxi](taxi.PNG)
 
 # Ze CommiT
 
